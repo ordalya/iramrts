@@ -1,0 +1,13 @@
+[spec]
+type = spec
+lem = 1
+mineff = 10
+indice = hypergeo
+typeformes = 0
+clnb = 2
+pathout = G:\My Drive\00.UNINE\Memoire\iramrts\data\iramuteq\rtsV3_fr\rtsV3_fr_alceste_3\rtsV3_fr_a3_classe_4\rtsV3_fr_a3_classe_4_spec
+corpus = 15eb838f-3c45-49bd-aff5-a366fb334d20
+uuid = 8124c3f4-69a3-45aa-b85a-979f5145b54e
+name = rtsV3_fr_a3_classe_4_spec
+ira = G:\My Drive\00.UNINE\Memoire\iramrts\data\iramuteq\rtsV3_fr\rtsV3_fr_alceste_3\rtsV3_fr_a3_classe_4\rtsV3_fr_a3_classe_4_spec\Analyse.ira
+time = 0h 1m 30s
