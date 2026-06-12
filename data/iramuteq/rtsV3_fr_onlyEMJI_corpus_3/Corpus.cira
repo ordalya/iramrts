@@ -1,7 +1,7 @@
 [corpus]
 encoding = utf-8
 lang = french
-pathout = G:\My Drive\00.UNINE\Memoire\analyses\CSV_Iramuteq\data\V3\rtsV3_fr_onlyEMJI_corpus_3
+pathout = G:\My Drive\00.UNINE\Memoire\iramrts\data\iramuteq\rtsV3_fr_onlyEMJI_corpus_3
 corpus_name = rtsV3_fr_onlyEMJI_corpus_3
 ucimark = 0
 expressions = 1
@@ -18,7 +18,7 @@ keep_ponct = 0
 originalpath = G:\My Drive\00.UNINE\Memoire\analyses\CSV_Iramuteq\data\V3\rtsV3_fr_onlyEMJI.txt
 uuid = 161ed372-d7a0-4903-8405-fcb0a1e6c2eb
 type = corpus
-ira = G:\My Drive\00.UNINE\Memoire\analyses\CSV_Iramuteq\data\V3\rtsV3_fr_onlyEMJI_corpus_3\Corpus.cira
+ira = G:\My Drive\00.UNINE\Memoire\iramrts\data\iramuteq\rtsV3_fr_onlyEMJI_corpus_3\Corpus.cira
 date = Wed Jun 10 20:05:00 2026
 time = 0h 0m 26s
 ucinb = 79323
