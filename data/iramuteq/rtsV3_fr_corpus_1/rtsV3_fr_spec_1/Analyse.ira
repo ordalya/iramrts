@@ -1,0 +1,13 @@
+[spec]
+type = spec
+lem = 1
+mineff = 10
+indice = hypergeo
+typeformes = 0
+clnb = 2
+pathout = G:\My Drive\00.UNINE\Memoire\analyses\CSV_Iramuteq\data\V3\rtsV3_fr_corpus_1\rtsV3_fr_spec_1
+corpus = 6fe751a3-aa60-48fb-8199-a5506f36072f
+uuid = cca68e47-d58d-4caf-8fbc-5a8b47c7217c
+name = rtsV3_fr_spec_1_all
+ira = G:\My Drive\00.UNINE\Memoire\analyses\CSV_Iramuteq\data\V3\rtsV3_fr_corpus_1\rtsV3_fr_spec_1\Analyse.ira
+time = 0h 3m 38s
