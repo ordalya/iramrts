@@ -1,0 +1,16 @@
+[corpus]
+type = corpus
+originalpath = G:\My Drive\00.UNINE\Memoire\iramrts\data\iramuteq\rtsDesc_fr.txt
+encoding = utf-8
+corpus_name = rtsDesc_fr_SUBi
+pathout = G:\My Drive\00.UNINE\Memoire\iramrts\data\iramuteq\rtsDesc_fr\rtsDesc_fr_SUBi_1
+meta = ['*rts_i']
+uuid = fc25e39d-8604-4d7a-b932-d9282ea99de7
+ira = G:\My Drive\00.UNINE\Memoire\iramrts\data\iramuteq\rtsDesc_fr\rtsDesc_fr_SUBi_1\Corpus.cira
+date = Fri Jun 12 19:36:01 2026
+time = 0h 0m 0s
+ucinb = 997
+ucenb = 997
+occurrences = 56189
+formesnb = 11000
+hapax = 6228 - 56.62 % des formes - 11.08 % des occurrences

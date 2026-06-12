@@ -1,0 +1,24 @@
+[alceste]
+type = alceste
+lem = 1
+mincl = 0
+nbforme_uce = 0
+max_actives = 20000
+tailleuc1 = 12
+nbcl = 4
+tailleuc2 = 14
+classif_mode = 1
+minforme = 2
+expressions = 1
+nbcl_p1 = 50
+svdmethod = irlba
+mode.patate = 0
+corpus = 68fa15c0-9c6e-402a-86d4-6531ddcf1239
+pathout = G:\My Drive\00.UNINE\Memoire\iramrts\data\iramuteq\rtsDesc_fr\rtsDesc_fr_SUBa_1\rtsDesc_fr_alceste_2
+uuid = 4774f042-249e-4f55-83f8-82a394b2aeeb
+name = rtsDesc_fr_alceste_max50
+eff_min_forme = 3
+nbactives = 1394
+clnb = 21
+time = 0h 5m 11s
+ira = G:\My Drive\00.UNINE\Memoire\iramrts\data\iramuteq\rtsDesc_fr\rtsDesc_fr_SUBa_1\rtsDesc_fr_alceste_2\Analyse.ira

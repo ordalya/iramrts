@@ -1,0 +1,13 @@
+[spec]
+type = spec
+lem = 0
+mineff = 10
+indice = hypergeo
+typeformes = 0
+clnb = 2
+pathout = G:\My Drive\00.UNINE\Memoire\iramrts\data\iramuteq\rtsDesc_fr_onlyEMJI\rtsDesc_fr_onlyEMJI_spec_1
+corpus = 8f81d4fb-cabd-4a00-b529-5da600f29b3c
+uuid = 19aef9f0-a659-4140-aa6d-0abd448ce2f4
+name = rtsDesc_fr_onlyEMJI_spec_all
+ira = G:\My Drive\00.UNINE\Memoire\iramrts\data\iramuteq\rtsDesc_fr_onlyEMJI\rtsDesc_fr_onlyEMJI_spec_1\Analyse.ira
+time = 0h 0m 3s
