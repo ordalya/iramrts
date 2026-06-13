@@ -29,7 +29,8 @@ def remplacer_tirets_apostrophes_emojis(txt_file_path):
 
     # MODIFICATION CRUCIALE : Ajout de \' et ’ dans les crochets pour que la Regex 
     # englobe toute la balise, même si elle contient des apostrophes.
-    regex_emji = re.compile(r'\b(EMJI_[a-zA-Z0-9_\-\'’]+)\b', re.IGNORECASE)
+    # CORRECTION : Utilisation de \w pour capturer les lettres accentuées (comme le é de états)
+    regex_emji = re.compile(r'\b(EMJI_[\w\-\'’]+)\b', re.IGNORECASE)
 
     # 2. Lecture, remplacement et écriture
     with open(txt_file_path, mode='r', encoding='utf-8') as f_in, \

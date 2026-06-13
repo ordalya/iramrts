@@ -56,7 +56,8 @@ if chemin_racine not in sys.path:
 import config
 
 # 2. Construction du chemin dynamique vers le fichier TXT
-chemin_corpus = config.RAW_DATA_DIR / "descriptions" / "xDescStats_EMJIfr_noUSER_noDash_noURL_langID_lang_fr.txt"
+chemin_corpus = config.RAW_DATA_DIR / "descriptions" / "xDescStats_EMJIfr_noUSER_noDash_noURL_langID.txt"
+#chemin_corpus = config.IRAMUTEQ_DATA_DIR / "rtsDesc.txt"
 
 # 3. Exécution de la fonction
 # On utilise str() par sécurité au cas où certaines anciennes fonctions Python
