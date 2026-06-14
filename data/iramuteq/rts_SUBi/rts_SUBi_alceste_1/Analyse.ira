@@ -1,0 +1,24 @@
+[alceste]
+type = alceste
+lem = 1
+mincl = 0
+nbforme_uce = 0
+max_actives = 20000
+tailleuc1 = 12
+nbcl = 4
+tailleuc2 = 14
+classif_mode = 1
+minforme = 2
+expressions = 1
+nbcl_p1 = 75
+svdmethod = irlba
+mode.patate = 0
+corpus = 113e4248-5783-45c7-834b-f0526eddd95c
+pathout = G:\My Drive\00.UNINE\Memoire\iramrts\data\iramuteq\rts_SUBi\rts_SUBi_alceste_1
+uuid = 69c50dbb-1207-4cd1-aa9b-87aa4e29dff0
+name = rts_SUBi_alceste_max75
+eff_min_forme = 3
+nbactives = 9261
+clnb = 8
+time = 0h 28m 20s
+ira = G:\My Drive\00.UNINE\Memoire\iramrts\data\iramuteq\rts_SUBi\rts_SUBi_alceste_1\Analyse.ira

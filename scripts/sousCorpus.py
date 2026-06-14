@@ -64,17 +64,17 @@ if chemin_racine not in sys.path:
 import config
 
 # 2. Construction du chemin dynamique vers le fichier TXT
-chemin_corpus = config.RAW_DATA_DIR / "iramuteq" / "rtsV3_fr.txt"
-#chemin_corpus = config.IRAMUTEQ_DATA_DIR / "rtsV3_fr.txt"
+#chemin_corpus = config.RAW_DATA_DIR / "iramuteq" / "rtsV3_fr.txt"
+chemin_corpus = config.IRAMUTEQ_DATA_DIR / "rtsDesc.txt"
 
 # 3. Listez simplement les modalités exactes que vous souhaitez extraire.
 # Le script créera automatiquement un fichier par modalité inscrite dans cette liste.
 modalites_a_extraire = [
-    #"*rts_a",
-    #"*rts_i"
-    "*lang_fr",
-    "*lang_other",
-    "*lang_inconnu"
+    "*rts_a",
+    "*rts_i"
+    #"*lang_fr",
+    #"*lang_other",
+    #"*lang_inconnu"
 ]
 
 # 4. Exécution de la fonction
