@@ -1,0 +1,21 @@
+
++-+-+-+-+-+-+-+-+
+|i|R|a|M|u|T|e|Q| - Sun Jun 14 11:56:19 2026
++-+-+-+-+-+-+-+-+
+
+
+Nombre de textes: 2000
+Nombre de segments de texte: 3059
+Nombre de formes: 17128
+Nombre d'occurrences: 110452
+Nombre de lemmes: 13205
+Nombre de formes actives: 10371
+Nombre de formes supplémentaires: 2834
+Nombre de formes actives avec une fréquence >= 3: 3393
+Moyenne de formes par segment: 36.107225
+Nombre de classes: 8
+2750 segments classés sur 3059 (89.90%)
+
+###########################
+temps : 0h 3m 21s
+###########################
