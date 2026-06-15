@@ -1,3 +1,0 @@
-dendro1.png;dendrogramme à partir de chd1
-arbre_1.png;chd1
-G:\\My Drive\\00.UNINE\\Memoire\\iramrts\\data\\iramuteq\\rts_SUBi\\rts_SUBi_alceste_3\\dendrogramme_1.png;Dendrogramme CHD1 - phylogram
