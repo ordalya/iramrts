@@ -1,0 +1,13 @@
+[spec]
+type = spec
+lem = 1
+mineff = 10
+indice = hypergeo
+typeformes = 1
+clnb = 2
+pathout = G:\My Drive\00.UNINE\Memoire\iramrts\data\iramuteq\1rts\1rts_spec_2
+corpus = 796bde3b-ea0f-43e2-a1e6-080d40f5b543
+uuid = b89f6961-8975-44ea-be35-d2194227f34b
+name = 1rts_spec_actives
+ira = G:\My Drive\00.UNINE\Memoire\iramrts\data\iramuteq\1rts\1rts_spec_2\Analyse.ira
+time = 0h 3m 7s
