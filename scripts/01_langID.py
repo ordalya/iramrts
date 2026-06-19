@@ -83,9 +83,9 @@ if chemin_racine not in sys.path:
 import config
 
 # 2. Construction du chemin dynamique vers le fichier TXT
-chemin_corpus = config.RAW_DATA_DIR / "comments" / "rts.txt"
+chemin_corpus = config.RAW_DATA_DIR / "descriptions" / "xDescStats.txt"
 
 # 3. Exécution de la fonction
-# On utilise str() par sécurité au cas où certaines anciennes fonctions Python
+# On utilise str() par sécurité au cas où certaines anciennes fonctions Pythonsource 
 # auraient encore besoin d'une chaîne de caractères classique
 tagger_langue_corpus(str(chemin_corpus))

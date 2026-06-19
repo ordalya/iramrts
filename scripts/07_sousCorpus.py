@@ -64,8 +64,7 @@ if chemin_racine not in sys.path:
 import config
 
 # 2. Construction du chemin dynamique vers le fichier TXT
-#chemin_corpus = config.RAW_DATA_DIR / "comments" / "rts_langID_EMJIfr_oneUSER_noDash_noURL.txt"
-chemin_corpus = config.IRAMUTEQ_DATA_DIR / "2rts.txt"
+chemin_corpus = config.RAW_DATA_DIR / "descriptions" / "xDescStats_langID_EMJIfr_oneUSER_noDash_noURL_noVIDE.txt"
 
 # 3. Listez simplement les modalités exactes que vous souhaitez extraire.
 # Le script créera automatiquement un fichier par modalité inscrite dans cette liste.
