@@ -1,7 +1,7 @@
 import csv
 import os
 
-def csv_to_iramuteq_v2(csv_file_path):
+def csv_to_iramuteq_comments(csv_file_path):
     # 1. Gestion du nom du fichier de sortie
     base_name, ext = os.path.splitext(csv_file_path)
     output_file_path = f"{base_name}.txt"
@@ -78,9 +78,10 @@ import config
 
 # 2. Construction du chemin dynamique vers le fichier CSV
 chemin_du_fichier_csv = config.RAW_DATA_DIR / "descriptions" / "aDescStats.csv"
-#chemin_du_fichier_csv = config.RAW_DATA_DIR / "descriptions" / "iDescStats.csv"
+#chemin_du_fichier_csv = config.RAW_DATA_DIR / "comments" / "rts_a.csv"
+#chemin_du_fichier_csv = config.RAW_DATA_DIR / "comments" / "rts_i.csv"
 
 # 3. Exécution de la fonction
 # On utilise str() par sécurité au cas où certaines anciennes fonctions Python
 # auraient encore besoin d'une chaîne de caractères classique
-csv_to_iramuteq_v2(str(chemin_du_fichier_csv))
+csv_to_iramuteq_comments(str(chemin_du_fichier_csv))
