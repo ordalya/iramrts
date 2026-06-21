@@ -1,5 +1,4 @@
-VIDE_aucun_emji
-VIDE_aucun_emji
+
 **** *rts_a *a_1000 *postLikes_1700 *postComments_22 *postReposts_12 *postDate_31-12-2025 *lang_fr
 -*rts_a_description
 VIDE_aucun_emji

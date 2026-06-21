@@ -19,7 +19,8 @@ def combler_textes_vides(txt_file_path):
         
         # On lit toutes les lignes en mémoire (très rapide et peu coûteux en RAM)
         lines = f_in.readlines()
-        i = 0
+        i = 1 # On commence à 1 pour ne pas interférer avec la ligne d'en-tête, souvent vide pour assurer la détection de la balise **** par IRaMuTeQ
+        f_out.write("\n")  # On ajoute une ligne vide au début pour garantir que la première balise **** est détectée
         
         while i < len(lines):
             line = lines[i]
@@ -36,12 +37,17 @@ def combler_textes_vides(txt_file_path):
                     if next_line.strip() == "":
                         f_out.write("VIDE_aucun_texte\n")
                         i += 1  # On saute la ligne vide d'origine pour ne pas créer un double saut
-                        
-                    # Cas B : Il n'y a pas de ligne de texte, on passe directement aux variables ou au locuteur suivant
+                    
+                    # Cas B : La ligne de texte est composée uniquement d'une puce "•"
+                    elif next_line.strip() == "•":
+                        f_out.write("VIDE_aucun_texte\n")
+                        i += 1  # On saute la ligne de puce d'origine pour ne pas créer un double saut
+
+                    # Cas C : Il n'y a pas de ligne de texte, on passe directement aux variables ou au locuteur suivant
                     elif next_line.startswith("****") or next_line.startswith("-*"):
                         f_out.write("VIDE_aucun_texte\n")
                         
-                # Cas C : On est à la toute dernière ligne du fichier et le texte manque
+                # Cas D : On est à la toute dernière ligne du fichier et le texte manque
                 else:
                     f_out.write("VIDE_aucun_texte\n")
                     

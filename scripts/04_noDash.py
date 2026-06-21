@@ -23,6 +23,7 @@ def remplacer_tirets_apostrophes_emojis(txt_file_path):
         mot = mot.replace('-', '_')
         mot = mot.replace("'", '_')  # Apostrophe droite
         mot = mot.replace('’', '_')  # Apostrophe typographique
+        mot = mot.replace('•', '\n') # Remplace la puce par un saut de ligne (en préparation de 06_noVIDE.py)
         
         # On fait un seul retour final
         return mot
