@@ -4177,7 +4177,7 @@ EMJI_drapeau_suisse
 EMJI_train EMJI_symbole_d_avertissement EMJI_appareil_photo
 **** *rts_i *i_0608 *postLikes_3800 *postComments_21 *postReposts_50 *postDate_27-11-2025 *lang_fr
 -*rts_i_description
-EMJI_sparadrap EMJI_sparadrap EMJI_appareil_photo
+EMJI_cœur_rouge EMJI_sparadrap EMJI_sparadrap EMJI_appareil_photo
 **** *rts_i *i_0607 *postLikes_2100 *postComments_67 *postReposts_23 *postDate_27-11-2025 *lang_fr
 -*rts_i_description
 EMJI_goutte_d_eau EMJI_drapeau_iran

@@ -1,0 +1,24 @@
+[alceste]
+type = alceste
+lem = 1
+mincl = 0
+nbforme_uce = 0
+max_actives = 30000
+tailleuc1 = 12
+nbcl = 4
+tailleuc2 = 14
+classif_mode = 1
+minforme = 2
+expressions = 1
+nbcl_p1 = 90
+svdmethod = irlba
+mode.patate = 0
+corpus = b7c31cfa-331a-4a65-8809-d11517044770
+pathout = /home/goodgurl/Documents/memoire/iramrts/data/iramuteq/rts/rts_alceste_2
+uuid = dc2817bb-774a-4530-b8e7-042b43f4679e
+name = rts_alceste_max90
+eff_min_forme = 3
+nbactives = 12940
+clnb = 8
+time = 0h 57m 1s
+ira = /home/goodgurl/Documents/memoire/iramrts/data/iramuteq/rts/rts_alceste_2/Analyse.ira
