@@ -14,6 +14,8 @@
 
     * **full:** merges of comments and descriptions data _(mainly used to complete the IRaMuTeQ default 'lexique_fr.txt' dictionnary)_
 
+* **dictionnaires:** output location for ...2dico.py scripts
+
 * **scripts:** python scripts to format "raw" scraped data to IRaMuTeQ format
 
 * **config.py:** file path manager for .py scripts _(when it comes to paths, relative > absolute)_

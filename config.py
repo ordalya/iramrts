@@ -11,6 +11,8 @@ ROOT_DIR = Path(__file__).resolve().parent
 DATA_DIR = ROOT_DIR / "data"
 RAW_DATA_DIR = DATA_DIR / "raw"
 IRAMUTEQ_DATA_DIR = DATA_DIR / "iramuteq"
+DICO_DIR = ROOT_DIR / "dictionnaires"
 
 # Création automatique des dossiers de sortie s'ils n'existent pas encore lors du clonage GitHub
 IRAMUTEQ_DATA_DIR.mkdir(parents=True, exist_ok=True)
+DICO_DIR.mkdir(parents=True, exist_ok=True)

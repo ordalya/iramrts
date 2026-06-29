@@ -16,7 +16,7 @@ def extraire_exclusivement_emojis(txt_file_path):
 
     # Regex pour capturer exclusivement les balises EMJI_
     # \b délimite le mot, [a-zA-Z0-9_-]+ capture les caractères de la balise
-    regex_emji = re.compile(r'\b(EMJI_[a-zA-Z0-9_-]+)\b', re.IGNORECASE)
+    regex_emji = re.compile(r'\b(EMJI_\w+)\b', re.IGNORECASE)
 
     # 2. Lecture, extraction et écriture
     with open(txt_file_path, mode='r', encoding='utf-8') as f_in, \
@@ -56,7 +56,8 @@ if chemin_racine not in sys.path:
 import config
 
 # 2. Construction du chemin dynamique vers le fichier TXT
-chemin_corpus = config.RAW_DATA_DIR / "descriptions" / "xDescStats_langID_EMJIfr_oneUSER_noDash_noURL_noVIDE.txt"
+#chemin_corpus = config.IRAMUTEQ_DATA_DIR / "rts.txt"
+chemin_corpus = config.IRAMUTEQ_DATA_DIR / "rtsDesc.txt"
 
 # 3. Exécution de la fonction
 # On utilise str() par sécurité au cas où certaines anciennes fonctions Python

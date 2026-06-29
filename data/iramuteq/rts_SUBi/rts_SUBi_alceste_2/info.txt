@@ -1,6 +1,6 @@
 
 +-+-+-+-+-+-+-+-+
-|i|R|a|M|u|T|e|Q| - Thu Jun 25 15:53:35 2026
+|i|R|a|M|u|T|e|Q| - Mon Jun 29 15:55:36 2026
 +-+-+-+-+-+-+-+-+
 
 
@@ -13,9 +13,9 @@ Nombre de formes actives: 23020
 Nombre de formes supplémentaires: 1078
 Nombre de formes actives avec une fréquence >= 3: 9096
 Moyenne de formes par segment: 21.919522
-Nombre de classes: 4
-37644 segments classés sur 39166 (96.11%)
+Nombre de classes: 7
+36946 segments classés sur 39166 (94.33%)
 
 ###########################
-temps : 0h 25m 23s
+temps : 0h 29m 21s
 ###########################
