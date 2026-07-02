@@ -1,0 +1,14 @@
+[labbe]
+type = labbe
+lem = 1
+dictionary = /home/goodgurl/Documents/memoire/iramrts/data/iramuteq/rts/rts_labbe_1/lexique_fr.txt
+mineff = 10
+indice = hypergeo
+typeformes = 0
+clnb = 2
+pathout = /home/goodgurl/Documents/memoire/iramrts/data/iramuteq/rts/rts_labbe_1
+corpus = b7c31cfa-331a-4a65-8809-d11517044770
+uuid = 8f428a9b-60c5-456f-aa5a-c7b895735633
+name = rts_labbe_dico2_all
+ira = /home/goodgurl/Documents/memoire/iramrts/data/iramuteq/rts/rts_labbe_1/Analyse.ira
+time = 0h 0m 7s

@@ -1,0 +1,14 @@
+[spec]
+type = spec
+lem = 1
+dictionary = /home/goodgurl/Documents/memoire/iramrts/data/iramuteq/rts/rts_spec_3/lexique_fr.txt
+mineff = 10
+indice = hypergeo
+typeformes = 1
+clnb = 2
+pathout = /home/goodgurl/Documents/memoire/iramrts/data/iramuteq/rts/rts_spec_3
+corpus = b7c31cfa-331a-4a65-8809-d11517044770
+uuid = fb6614d3-af95-43e8-a266-9a4e97578df5
+name = rts_spec_dico2_actives
+ira = /home/goodgurl/Documents/memoire/iramrts/data/iramuteq/rts/rts_spec_3/Analyse.ira
+time = 0h 0m 8s
