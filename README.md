@@ -6,13 +6,11 @@
 
   * **iramuteq:** IRaMuTeQ processed data
 
-  * **raw:** raw and semi-IRaMuTeQ-formatted data _(some script shenanigans was used on it)_
+  * **raw:** raw and semi-IRaMuTeQ-formatted data _(some script shenanigans happened here)_
 
     * **comments:** Instagram comments data _(scraped from a sample of @rtsarchives & @rtsinfo posts, a thousand from each)_
 
     * **descriptions:** Instagram descriptions data _(scraped from a sample of @rtsarchives & @rtsinfo posts, a thousand from each)_
-
-    * **full:** merges of comments and descriptions data _(mainly used to complete the IRaMuTeQ default 'lexique_fr.txt' dictionnary)_
 
 * **dictionnaires:** output location for 2dico.py scripts
 
