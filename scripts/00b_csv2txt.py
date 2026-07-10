@@ -23,12 +23,12 @@ def csv_to_iramuteq_descriptions(csv_file_path):
         
         for row in reader:
             # Récupération des variables (fixes pour toute la ligne)
-            var1 = row.get('var1', '').strip()  # var1 = *rts
-            var2 = row.get('var2', '').strip()  # var2 = *postID
-            var3 = row.get('var3', '').strip().replace(' ', '_')    # var3 = *postLikes
-            var4 = row.get('var4', '').strip().replace(' ', '_')    # var4 = *postComments
-            var5 = row.get('var5', '').strip().replace(' ', '_') #   var5 = *postReposts
-            var6 = row.get('var6', '').strip().replace(' ', '_') #   var6 = *postDate
+            var1 = row.get('var1', '').strip()                    # var1 = *rts
+            var2 = row.get('var2', '').strip()                    # var2 = *postID
+            var3 = row.get('var3', '').strip().replace(' ', '_')  # var3 = *postLikes
+            var4 = row.get('var4', '').strip().replace(' ', '_')  # var4 = *postComments
+            var5 = row.get('var5', '').strip().replace(' ', '_')  # var5 = *postReposts
+            var6 = row.get('var6', '').strip().replace(' ', '_')  # var6 = *postDate
 
             # Plus de .split() ni de boucle for ! 
             # On récupère directement la chaîne de caractères.

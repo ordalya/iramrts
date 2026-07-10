@@ -21,20 +21,20 @@ def csv_to_iramuteq_comments(csv_file_path):
         
         for row in reader:
             # Récupération des variables de post (fixes pour toute la ligne)
-            var1 = row.get('var1', '').strip()  # var1 = *rts
-            var2 = row.get('var2', '').strip()  # var2 = *postID
-            var3 = row.get('var3', '').strip().replace(' ', '_')    # var3 = *postLikes
-            var4 = row.get('var4', '').strip().replace(' ', '_')    # var4 = *postComments
-            var5 = row.get('var5', '').strip().replace(' ', '_')    # var5 = *postReposts
-            var6 = row.get('var6', '').strip().replace(' ', '_')    # var6 = *postDate
+            var1 = row.get('var1', '').strip()                    # var1 = *rts
+            var2 = row.get('var2', '').strip()                    # var2 = *postID
+            var3 = row.get('var3', '').strip().replace(' ', '_')  # var3 = *postLikes
+            var4 = row.get('var4', '').strip().replace(' ', '_')  # var4 = *postComments
+            var5 = row.get('var5', '').strip().replace(' ', '_')  # var5 = *postReposts
+            var6 = row.get('var6', '').strip().replace(' ', '_')  # var6 = *postDate
             
             # Scission des colonnes à valeurs multiples
-            # Double line break (\n\n) pour username, text et var8
+            # Double line break (\n\n) pour username, text et var8 = *commentLikes
             usernames = row.get('username', '').split('\n\n')
             texts = row.get('text', '').split('\n\n')
             var8_list = row.get('var8', '').split('\n\n')
             
-            # Simple line break (\n) pour la spécificité de var7
+            # Simple line break (\n) pour la spécificité de var7 = *commentDate
             var7_list = row.get('var7', '').split('\n')
             
             # Parcours de chaque commentaire
@@ -77,8 +77,7 @@ if chemin_racine not in sys.path:
 import config
 
 # 2. Construction du chemin dynamique vers le fichier CSV
-chemin_du_fichier_csv = config.RAW_DATA_DIR / "descriptions" / "aDescStats.csv"
-#chemin_du_fichier_csv = config.RAW_DATA_DIR / "comments" / "rts_a.csv"
+chemin_du_fichier_csv = config.RAW_DATA_DIR / "comments" / "rts_a.csv"
 #chemin_du_fichier_csv = config.RAW_DATA_DIR / "comments" / "rts_i.csv"
 
 # 3. Exécution de la fonction
