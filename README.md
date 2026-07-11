@@ -16,4 +16,6 @@
 
 * **scripts:** python scripts to format "raw" scraped data to IRaMuTeQ format
 
+* **sitemaps:** Web Scraper sitemaps used for scraping
+
 * **config.py:** file path manager for .py scripts _(when it comes to paths, relative > absolute)_
