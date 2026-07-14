@@ -1,3 +1,6 @@
+# Fichiers locaux temporaires
+WIP/
+
 # Caches Python
 __pycache__/
 *.py[cod]

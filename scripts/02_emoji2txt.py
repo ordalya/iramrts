@@ -69,7 +69,7 @@ if chemin_racine not in sys.path:
 import config
 
 # 2. Construction du chemin dynamique vers le fichier TXT
-chemin_du_fichier_txt = config.RAW_DATA_DIR / "descriptions" / "xDescStats_langID.txt"
+chemin_du_fichier_txt = config.RAW_DATA_DIR / "rts_x_langID.txt"
 
 # 3. Exécution de la fonction
 # On utilise str() par sécurité au cas où certaines anciennes fonctions Python
