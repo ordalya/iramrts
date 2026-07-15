@@ -1,0 +1,13 @@
+[spec]
+type = spec
+lem = 1
+mineff = 10
+indice = hypergeo
+typeformes = 0
+clnb = 2
+pathout = /home/kera/Documents/memoire/iramrts/data/iramuteq/rts/rts_spec_1
+corpus = 4d7b3c05-185d-4973-b497-0595adf27fef
+uuid = 1dd7e113-507b-4e2e-84a7-0e63dfafb985
+name = rts_spec_all
+ira = /home/kera/Documents/memoire/iramrts/data/iramuteq/rts/rts_spec_1/Analyse.ira
+time = 0h 0m 5s

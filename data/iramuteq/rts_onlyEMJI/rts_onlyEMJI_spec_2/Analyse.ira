@@ -1,0 +1,13 @@
+[spec]
+type = spec
+lem = 1
+mineff = 10
+indice = hypergeo
+typeformes = 1
+clnb = 2
+pathout = /home/kera/Documents/memoire/iramrts/data/iramuteq/rts_onlyEMJI/rts_onlyEMJI_spec_2
+corpus = c1516a69-91ac-45e2-aea5-db36e41b1d05
+uuid = 0ea75251-cf59-47ca-b875-c279a16aca9e
+name = rts_onlyEMJI_spec_actives_only
+ira = /home/kera/Documents/memoire/iramrts/data/iramuteq/rts_onlyEMJI/rts_onlyEMJI_spec_2/Analyse.ira
+time = 0h 0m 1s
