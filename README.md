@@ -1,4 +1,4 @@
-# What's in this repo? 👀
+# What's in this repo?
 
 >IRaMuTeQ + RTS = IRaMRTS
 
@@ -6,7 +6,7 @@
 
   * **iramuteq:** IRaMuTeQ processed data
 
-  * **raw:** raw and semi-IRaMuTeQ-formatted data _(some script shenanigans happened here)_
+  * **raw:** raw and semi-IRaMuTeQ-formatted data
 
 * **dictionnaires:** output location for 2dico.py scripts
 
@@ -14,4 +14,4 @@
 
 * **sitemaps:** Web Scraper sitemaps used for scraping
 
-* **config.py:** file path manager for .py scripts _(when it comes to paths, relative > absolute)_
+* **config.py:** file path manager for .py scripts
